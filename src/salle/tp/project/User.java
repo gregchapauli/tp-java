@@ -5,6 +5,7 @@ public class User {
 	private String name;
 	private int age;
 	private int salary;
+	private String sexe;
 
 	public String getName() {
 		return name;
@@ -28,6 +29,14 @@ public class User {
 
 	public void setSalary(int salary) {
 		this.salary = salary;
+	}
+
+	public String getSexe() {
+		return sexe;
+	}
+
+	public void setSexe(String sexe) {
+		this.sexe = sexe;
 	}
 	
 	
